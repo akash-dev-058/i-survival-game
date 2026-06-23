@@ -1,0 +1,31 @@
+{
+  "name": "survivalcore3d",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@types/three": "0.163.0",
+    "cannon-es": "0.20.0",
+    "dexie": "4.0.0",
+    "gsap": "3.12.0",
+    "leva": "0.9.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.163.0",
+    "zustand": "4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.2.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-react": "7.33.2",
+    "typescript": "5.4.5",
+    "vite": "5.2.0",
+    "vitest": "1.4.0"
+  }
+}
